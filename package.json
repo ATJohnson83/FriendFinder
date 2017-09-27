@@ -1,0 +1,29 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "friendfinder Unc Express homework assignment",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ATJohnson83/FriendFinder.git"
+  },
+  "keywords": [
+    "friendfinder",
+    "express",
+    "bodyparser"
+  ],
+  "author": "austin Johnson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ATJohnson83/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/ATJohnson83/FriendFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.15.5"
+  }
+}

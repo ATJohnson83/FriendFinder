@@ -7,7 +7,7 @@ app.use(bodyParser.json({ type: 'application/*+json' }));
 app.use(bodyParser.raw({ type: 'application/vnd.custom-type' }));
 app.use(bodyParser.text({ type: 'text/html' }));
 var path = require('path');
-var PORT = 3000;
+var PORT = process.env.PORT || 3000;
 
 app.get('/', function(req,res){
 	res.sendFile(path.join(__dirname,'./app/public/home.html'));
